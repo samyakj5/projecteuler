@@ -11,4 +11,3 @@ for num1 in pentagons:
             sols.add(abs(num1 - num2))
 
 print(min(sols))
-        
