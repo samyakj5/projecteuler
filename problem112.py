@@ -5,7 +5,7 @@ curr = 1
 
 while True:
     if total_nums:
-        if bouncy_nums / total_nums == 0.99:
+        if bouncy_nums * 100 == total_nums * 99:
             break
     if sorted(str(curr)) == list(str(curr)):
         total_nums += 1
