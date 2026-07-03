@@ -1,4 +1,4 @@
-with open("problem81_data.txt", "r", encoding="utf-8") as file:
+with open("problem0081_data.txt", "r", encoding="utf-8") as file:
     matrix = file.read()
 
 matrix = [[int(x) for x in y.split(",")] for y in matrix.split("\n")]

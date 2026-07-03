@@ -1,4 +1,4 @@
-with open("problem42_data.txt", "r", encoding="utf-8") as file:
+with open("problem0042_data.txt", "r", encoding="utf-8") as file:
     names_1 = file.read()
 
 names = names_1.split(",")

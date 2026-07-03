@@ -1,6 +1,6 @@
 import math
 
-with open("problem99_data.txt", "r", encoding="utf-8") as file:
+with open("problem0099_data.txt", "r", encoding="utf-8") as file:
     lines = file.read().split("\n")
 
 largest_log = 0

@@ -1,4 +1,4 @@
-with open("problem67_data.txt", "r", encoding="utf-8") as file:
+with open("problem0067_data.txt", "r", encoding="utf-8") as file:
     triangle = file.read()
 
 rows = triangle.split('\n')
