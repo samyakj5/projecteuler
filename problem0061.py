@@ -13,3 +13,10 @@ for i in range(1, 141):
     heptagon.append(i * (5 * i - 3) // 2)
     octagon.append(i * (3 * i - 2))
 
+number_list = [heptagon, hexagon, pentagon, square, triangle]
+
+
+for oct in octagon:
+    if len(str(oct)) != 4:
+        continue
+    
