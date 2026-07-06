@@ -1,3 +1,5 @@
+# this code takes like 10 mins to run
+
 import math
 
 num_primes = 750_000_000
