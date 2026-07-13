@@ -16,7 +16,12 @@ for i in range(1, 141):
 number_list = [heptagon, hexagon, pentagon, square, triangle]
 
 
-for oct in octagon:
-    if len(str(oct)) != 4:
+# for oct in octagon:
+#     if len(str(oct)) != 4 or str(oct)[2] == "0":
+#         continue
+#     print(oct)
+
+for tri in triangle:
+    if len(str(tri)) != 4 or str(tri)[2] == "0":
         continue
-    
+    print(tri)
