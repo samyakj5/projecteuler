@@ -11,3 +11,15 @@
 
 # sum all of these ways for the final answer
 
+import math
+
+lengths = [2, 3, 4]
+greys = 50
+sum = 0
+
+for length in lengths:
+    for i in range(1, math.floor(greys / length) + 1):
+        j = (length - 1) * i
+        sum += math.factorial(greys - j) // (math.factorial(i) * math.factorial(greys - j - i))
+
+print(sum)
