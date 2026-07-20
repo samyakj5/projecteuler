@@ -9,7 +9,3 @@ for i in range(2, math.isqrt(num_primes) + 1):
             is_prime[k] = False
 
 primes = [x for x in range(num_primes) if is_prime[x]]
-
-
-
-for prime in primes:
